@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PetFashion - Стильная одежда для ваших питомцев</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Nunito:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Хедер -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <span class="logo-icon">🐾</span>
+                    <h2>PetFashion</h2>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#main" class="nav-link">Главная</a></li>
+                    <li><a href="#products" class="nav-link">Товары</a></li>
+                    <li><a href="#categories" class="nav-link">Категории</a></li>
+                    <li><a href="#about" class="nav-link">О нас</a></li>
+                    <li><a href="#contact" class="nav-link">Контакты</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Главный баннер -->
+    <section id="main" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title animate-pop">Стиль для ваших <span class="highlight">питомцев</span></h1>
+                <p class="hero-subtitle">Модная одежда и аксессуары для собак и кошек. Подчеркните индивидуальность вашего любимца!</p>
+                <div class="hero-buttons">
+                    <button class="btn-primary">Каталог товаров</button>
+                    <button class="btn-secondary">Акции</button>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="floating-card card-1">
+                    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjMjE5NkYzIi8+PC9zdmc+" alt="Одежда для собак" class="product-img">
+                    <div class="card-label">Новая коллекция</div>
+                </div>
+                <div class="floating-card card-2">
+                    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjRkZFQjNCIi8+PC9zdmc+" alt="Одежда для кошек" class="product-img">
+                    <div class="card-label">Хит продаж</div>
+                </div>
+                <div class="floating-card card-3">
+                    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjRkZGRkZGIi8+PC9zdmc+" alt="Аксессуары" class="product-img">
+                    <div class="card-label">Аксессуары</div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-background">
+            <div class="bg-circle circle-1"></div>
+            <div class="bg-circle circle-2"></div>
+            <div class="bg-circle circle-3"></div>
+        </div>
+    </section>
+
+    <!-- Преимущества -->
+    <section class="features">
+        <div class="container">
+            <h2 class="section-title">Почему выбирают нас</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">👍</div>
+                    <h3>Качественные материалы</h3>
+                    <p>Используем только гипоаллергенные и дышащие ткани</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">✂️</div>
+                    <h3>Индивидуальный пошив</h3>
+                    <p>Можем изготовить одежду по вашим меркам</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🚚</div>
+                    <h3>Быстрая доставка</h3>
+                    <p>Доставляем заказы по всей России за 1-3 дня</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">💝</div>
+                    <h3>Забота о питомцах</h3>
+                    <p>Все изделия удобны и безопасны для животных</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Популярные товары -->
+    <section id="products" class="products">
+        <div class="container">
+            <h2 class="section-title">Популярные товары</h2>
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-badge">Хит</div>
+                    <div class="product-image" style="background-color: #2196F3"></div>
+                    <div class="product-info">
+                        <h3>Синий комбинезон</h3>
+                        <p>Теплый и водонепроницаемый комбинезон для прогулок</p>
+                        <div class="product-price">1 290 ₽</div>
+                        <button class="btn-cart">В корзину</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-badge">Новинка</div>
+                    <div class="product-image" style="background-color: #FFEB3B"></div>
+                    <div class="product-info">
+                        <h3>Желтая куртка</h3>
+                        <p>Стильная куртка с капюшоном для маленьких пород</p>
+                        <div class="product-price">990 ₽</div>
+                        <button class="btn-cart">В корзину</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image" style="background-color: #FFFFFF; border: 1px solid #E0E0E0"></div>
+                    <div class="product-info">
+                        <h3>Белая футболка</h3>
+                        <p>Легкая футболка с принтом для жаркой погоды</p>
+                        <div class="product-price">590 ₽</div>
+                        <button class="btn-cart">В корзину</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-badge">Акция</div>
+                    <div class="product-image" style="background: linear-gradient(135deg, #2196F3, #FFEB3B)"></div>
+                    <div class="product-info">
+                        <h3>Дождевик двухцветный</h3>
+                        <p>Защитит вашего питомца от дождя и грязи</p>
+                        <div class="product-price">1 490 ₽ <span class="old-price">1 990 ₽</span></div>
+                        <button class="btn-cart">В корзину</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Категории -->
+    <section id="categories" class="categories">
+        <div class="container">
+            <h2 class="section-title">Категории товаров</h2>
+            <div class="categories-grid">
+                <div class="category-card">
+                    <div class="category-icon">🐕</div>
+                    <h3>Для собак</h3>
+                    <p>Одежда и аксессуары для собак всех пород</p>
+                    <button class="btn-outline">Смотреть</button>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">🐈</div>
+                    <h3>Для кошек</h3>
+                    <p>Стильные наряды для ваших пушистых друзей</p>
+                    <button class="btn-outline">Смотреть</button>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">🧦</div>
+                    <h3>Аксессуары</h3>
+                    <p>Ошейники, поводки, игрушки и многое другое</p>
+                    <button class="btn-outline">Смотреть</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- О нас -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="section-title">О PetFashion</h2>
+                    <p>Мы - команда энтузиастов, которые обожают животных и моду. Наша миссия - делать питомцев стильными и счастливыми!</p>
+                    <p>Все наши изделия создаются с любовью и заботой о комфорте ваших любимцев. Мы используем только качественные материалы и учитываем все нюансы при пошиве.</p>
+                    <div class="stats">
+                        <div class="stat">
+                            <div class="stat-number">5000+</div>
+                            <div class="stat-label">Довольных клиентов</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-number">3 года</div>
+                            <div class="stat-label">На рынке</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-number">100%</div>
+                            <div class="stat-label">Качество</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-placeholder"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Футер -->
+    <footer id="contact" class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="logo">
+                        <span class="logo-icon">🐾</span>
+                        <h2>PetFashion</h2>
+                    </div>
+                    <p>Стильная одежда и аксессуары для ваших питомцев</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link">VK</a>
+                        <a href="#" class="social-link">Instagram</a>
+                        <a href="#" class="social-link">Telegram</a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Каталог</h3>
+                    <ul>
+                        <li><a href="#">Для собак</a></li>
+                        <li><a href="#">Для кошек</a></li>
+                        <li><a href="#">Аксессуары</a></li>
+                        <li><a href="#">Новинки</a></li>
+                        <li><a href="#">Акции</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Помощь</h3>
+                    <ul>
+                        <li><a href="#">Доставка и оплата</a></li>
+                        <li><a href="#">Возврат</a></li>
+                        <li><a href="#">Размеры</a></li>
+                        <li><a href="#">Контакты</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Контакты</h3>
+                    <ul>
+                        <li>+7 (999) 123-45-67</li>
+                        <li>info@petfashion.ru</li>
+                        <li>Москва, ул. Пушкинская, д. 15</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 PetFashion. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
